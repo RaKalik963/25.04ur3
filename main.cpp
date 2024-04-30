@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
+    cout << "enter a fractional number";
     double amount;
-    std::cout << "vvedit drobove chislo ";
-    std::cin >> amount;
+    cin >> amount;
     int hrn = static_cast<int>(amount);
     int kop = round((amount - hrn) * 100);
-    std::cout << " grn " << hrn << " kop" << kop << std::endl;
+    cout << " grn " << hrn << " kop" << kop << endl;
     system("pause");
     return 0;
 }
