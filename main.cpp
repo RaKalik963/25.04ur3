@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
+	cout << "enter seconds ";
 	int sec;
-	std::cout << "enter seconds ";
-	std::cin >> sec;
+	cin >> sec;
 	float res = static_cast<float>(sec / 60);
 	cout << "minuts = " << res << endl;
 	int hours = sec / 3600;
